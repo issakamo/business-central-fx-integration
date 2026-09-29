@@ -1,0 +1,7 @@
+.alpackages/
+.altemplates/
+*.app
+.snapshots/
+rad.json
+launch.json
+commit-message.txt
