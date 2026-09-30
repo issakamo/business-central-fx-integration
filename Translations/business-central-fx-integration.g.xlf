@@ -2,7 +2,98 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="en-US" original="business-central-fx-integration">
     <body>
-      <group id="body" />
+      <group id="body">
+        <trans-unit id="Table 2163425663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FX Integration Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 39585143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Direction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Direction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 4240670190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field End Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Error Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 728892411 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integration Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Integration Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 1440482287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Records Failed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Records Failed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 858616192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Records Processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Records Processed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 3875143630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Records Successful</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Records Successful - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 3577092237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retry Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Retry Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 2169532623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Start Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2163425663 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1785575864 - EnumValue 3221732535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inbound</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FXI Integration Direction - EnumValue Inbound - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1785575864 - EnumValue 2757523496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FXI Integration Direction - EnumValue Outbound - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1724833503 - EnumValue 3665605423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FXI Integration Status - EnumValue Completed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1724833503 - EnumValue 3826689261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FXI Integration Status - EnumValue Failed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1724833503 - EnumValue 1431752372 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Partial Success</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FXI Integration Status - EnumValue Partial Success - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1724833503 - EnumValue 816905803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Started</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FXI Integration Status - EnumValue Started - Property Caption</note>
+        </trans-unit>
+      </group>
     </body>
   </file>
 </xliff>

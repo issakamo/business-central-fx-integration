@@ -15,7 +15,7 @@ codeunit 52100 "FXI Mock Exch Rate Provider" implements "FXI Exchange Rate Provi
                 'JPY':
                     ResultRates.Add(CurrencyCode, 149.50);
                 else
-                    exit(false);
+                    ResultRates.Add(CurrencyCode, 1.00);
             end;
 
         exit(true);
