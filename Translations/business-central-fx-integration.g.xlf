@@ -103,6 +103,61 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table FXI Target Currency - Field Currency Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 3339434903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>direction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control direction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 523229054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>endTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control endTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 2683860767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>entryNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control entryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 2159047821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>errorMessage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control errorMessage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 2837933091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>integrationName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control integrationName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 1765274647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>recordsFailed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control recordsFailed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 435005144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>recordsProcessed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control recordsProcessed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 1508555142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>recordsSuccessful</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control recordsSuccessful - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 2656790757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>retryCount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control retryCount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 43755559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>startTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control startTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 998393528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3516271625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FX Integration Log</source>
           <note from="Developer" annotates="general" priority="2"></note>
