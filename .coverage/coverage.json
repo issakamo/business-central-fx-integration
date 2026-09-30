@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "coverageData": [],
+  "testStatus": {
+    "52120|GetRates_LiveFrankfurterCall_ReturnsRealRates": 0,
+    "52120|GetRates_DiagnosticGenericHttpsCall_Isolate": 1
+  }
+}
