@@ -63,6 +63,156 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Log - Field Status - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1120779826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FX Integration Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1120779826 - Field 564082529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Setup - Field Base Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1120779826 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Setup - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1120779826 - Field 1686787585 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Successful Run</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Setup - Field Last Successful Run - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1120779826 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1120779826 - Field 297635827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Provider</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Integration Setup - Field Provider - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3153078779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FX Target Currency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Target Currency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3153078779 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table FXI Target Currency - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FX Integration Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Control 39585143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the direction of the integration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Control Direction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Control 4240670190 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the integration ended.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Control End Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unique entry number of the integration log.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Control 2852966117 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the error message for the integration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Control Error Message - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Control 728892411 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the integration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Control Integration Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Control 1440482287 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of records that failed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Control Records Failed - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Control 3875143630 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of records that completed successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Control Records Successful - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Control 3577092237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of times the integration has been retried.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Control Retry Count - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Control 2169532623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the integration started.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Control Start Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3516271625 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the integration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log List - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FX Integration Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Control 564082529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the base currency used for exchange rate synchronization.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Base Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Control 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether exchange rate synchronization is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Control 1686787585 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date and time of the last successful exchange rate synchronization.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Last Successful Run - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Control 297635827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the exchange rate provider used for synchronization.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Provider - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Action 3470463835 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronizes exchange rates for the configured target currencies.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Action SyncNow - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Action 3470463835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sync Now</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Action SyncNow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Action 4000661843 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the integration log to review recent synchronization activity and errors.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Action ViewLog - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Action 4000661843 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Integration Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Action ViewLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1119060325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Currencies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Target Currency List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1119060325 - Control 4198939294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the target currency code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Target Currency List - Control Currency Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Enum 1785575864 - EnumValue 3221732535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inbound</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -92,6 +242,16 @@
           <source>Started</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum FXI Integration Status - EnumValue Started - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3678255330 - EnumValue 315049558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Frankfurter (Live)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FXI Provider Type - EnumValue Frankfurter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3678255330 - EnumValue 1417814126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mock (Testing)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum FXI Provider Type - EnumValue Mock - Property Caption</note>
         </trans-unit>
       </group>
     </body>
