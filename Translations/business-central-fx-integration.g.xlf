@@ -123,6 +123,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control errorMessage - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1968224071 - Control 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Log API - Control id - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1968224071 - Control 2837933091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>integrationName</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -20,6 +20,7 @@ page 52100 "FXI Integration Setup"
             {
                 field("Base Currency Code"; Rec."Base Currency Code")
                 {
+                    Editable = false;
                     ApplicationArea = All;
                     ToolTip = 'Specifies the base currency used for exchange rate synchronization.';
                 }
@@ -67,6 +68,9 @@ page 52100 "FXI Integration Setup"
                     TargetCurrencyCodes: List of [Code[10]];
                     Success: Boolean;
                 begin
+                    if not Rec.Enabled then
+                        Error('The FX integration is not enabled. Turn on Enabled to run a sync.');
+                    Rec.CheckProviderAllowed();
                     if TargetCurrency.FindSet() then
                         repeat
                             TargetCurrencyCodes.Add(TargetCurrency."Currency Code");
@@ -110,9 +114,15 @@ page 52100 "FXI Integration Setup"
     begin
         if not Rec.Get() then begin
             Rec.Init();
-            Rec."Base Currency Code" := GetDefaultLCYCode();
             Rec.Provider := Rec.Provider::Frankfurter;
             Rec.Insert();
+        end;
+
+        // The base must always be the company's LCY, so keep it in step with
+        // General Ledger Setup rather than storing a value a user could change.
+        if Rec."Base Currency Code" <> GetDefaultLCYCode() then begin
+            Rec."Base Currency Code" := GetDefaultLCYCode();
+            Rec.Modify();
         end;
     end;
 

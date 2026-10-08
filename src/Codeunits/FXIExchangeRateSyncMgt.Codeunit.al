@@ -21,6 +21,8 @@ codeunit 52102 "FXI Exchange Rate Sync Mgt"
         RecordsFailed: Integer;
     begin
         GLSetup.Get();
+        if BaseCurrencyCode = '' then
+            Error('A base currency code is required. Set the LCY Code in General Ledger Setup.');
         if (GLSetup."LCY Code" <> '') and (BaseCurrencyCode <> GLSetup."LCY Code") then
             Error('Base currency %1 must match the company''s LCY (%2). Syncing rates against a non-LCY base would write incorrect financial data.', BaseCurrencyCode, GLSetup."LCY Code");
 
@@ -47,6 +49,14 @@ codeunit 52102 "FXI Exchange Rate Sync Mgt"
             ErrorInfoText := 'Provider call failed after %1 attempt(s).';
             IntegrationLog."Error Message" := StrSubstNo(ErrorInfoText, AttemptNo);
             IntegrationLog.Modify();
+
+            // Commit the failed run's log entry before raising the error.
+            // Error() rolls back the whole transaction, so without this commit
+            // the Failed entry would be rolled back too, and failed runs would
+            // never appear in the log. SyncRates is only invoked from the Setup
+            // page's Sync Now action, so this commit doesn't commit unrelated
+            // work from a calling process.
+            Commit();
 
             ErrorInfoObj.Message := 'Unable to retrieve exchange rates from the external provider.';
             ErrorInfoTextDetails := 'Failed after %1 attempt(s). See FX Integration Log entry %2 for details.';
@@ -86,13 +96,16 @@ codeunit 52102 "FXI Exchange Rate Sync Mgt"
             CurrencyExchangeRate.Init();
             CurrencyExchangeRate."Currency Code" := CurrencyCode;
             CurrencyExchangeRate."Starting Date" := Today;
-            CurrencyExchangeRate.Insert();
+            CurrencyExchangeRate.Insert(true);
         end;
 
-        CurrencyExchangeRate."Relational Currency Code" := '';
-        CurrencyExchangeRate."Exchange Rate Amount" := Rate;
-        CurrencyExchangeRate."Relational Exch. Rate Amount" := 1;
-        CurrencyExchangeRate.Modify();
+        // Validate (not direct assignment) so Business Central's own field
+        // logic runs, including filling the adjustment amounts used by the
+        // exchange rate adjustment process.
+        CurrencyExchangeRate.Validate("Relational Currency Code", '');
+        CurrencyExchangeRate.Validate("Exchange Rate Amount", Rate);
+        CurrencyExchangeRate.Validate("Relational Exch. Rate Amount", 1);
+        CurrencyExchangeRate.Modify(true);
 
         exit(true);
     end;

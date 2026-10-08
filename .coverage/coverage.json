@@ -6,6 +6,7 @@
     "52120|GetRates_DiagnosticGenericHttpsCall_Isolate": 1,
     "52121|SyncRates_AllCurrenciesValid_CompletesSuccessfully": 0,
     "52121|SyncRates_OneCurrencyNotSetUpInBC_ReportsPartialSuccess": 0,
-    "52121|SyncRates_BaseCurrencyNotLCY_Fails": 0
+    "52121|SyncRates_BaseCurrencyNotLCY_Fails": 0,
+    "52121|SyncRates_BlankBaseCurrency_Fails": 0
   }
 }

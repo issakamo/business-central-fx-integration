@@ -2,6 +2,7 @@ namespace FxIntegration.Integration;
 
 page 52103 "FXI Integration Log API"
 {
+    ODataKeyFields = SystemId;
     PageType = API;
     APIPublisher = 'issakamo';
     APIGroup = 'fxIntegration';
@@ -20,6 +21,7 @@ page 52103 "FXI Integration Log API"
         {
             repeater(Group)
             {
+                field(id; Rec.SystemId) { Caption = 'id'; }
                 field(entryNo; Rec."Entry No.")
                 {
                     Caption = 'entryNo';

@@ -113,6 +113,22 @@ codeunit 52121 "FXI Exchange Rate Sync Test"
         Assert.ExpectedError('must match the company');
     end;
 
+    [Test]
+    procedure SyncRates_BlankBaseCurrency_Fails()
+    var
+        MockProvider: Codeunit "FXI Mock Exch Rate Provider";
+        SyncMgt: Codeunit "FXI Exchange Rate Sync Mgt";
+        TargetCurrencies: List of [Code[10]];
+    begin
+        // [GIVEN] A target currency, but no base currency
+        TargetCurrencies.Add('EUR');
+
+        // [WHEN/THEN] Syncing with a blank base is refused, rather than
+        // letting the provider fall back to a default base currency
+        asserterror SyncMgt.SyncRates(MockProvider, '', TargetCurrencies);
+        Assert.ExpectedError('A base currency code is required');
+    end;
+
     var
         Assert: Codeunit "Library Assert";
 }
