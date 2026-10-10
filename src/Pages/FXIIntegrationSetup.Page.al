@@ -22,21 +22,25 @@ page 52100 "FXI Integration Setup"
                 {
                     Editable = false;
                     ApplicationArea = All;
+                    Caption = 'Base Currency Code (LCY)';
                     ToolTip = 'Specifies the base currency used for exchange rate synchronization.';
                 }
                 field(Provider; Rec.Provider)
                 {
                     ApplicationArea = All;
+                    Caption = 'Provider';
                     ToolTip = 'Specifies the exchange rate provider used for synchronization.';
                 }
                 field(Enabled; Rec.Enabled)
                 {
                     ApplicationArea = All;
+                    Caption = 'Enabled';
                     ToolTip = 'Specifies whether exchange rate synchronization is enabled.';
                 }
                 field("Last Successful Run"; Rec."Last Successful Run")
                 {
                     ApplicationArea = All;
+                    Caption = 'Last Successful Run';
                     ToolTip = 'Specifies the date and time of the last successful exchange rate synchronization.';
                 }
             }

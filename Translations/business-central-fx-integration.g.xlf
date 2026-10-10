@@ -228,20 +228,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Base Currency Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1120779826 - Control 564082529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Currency Code (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Base Currency Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1120779826 - Control 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether exchange rate synchronization is enabled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Control 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Enabled - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1120779826 - Control 1686787585 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the date and time of the last successful exchange rate synchronization.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Last Successful Run - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1120779826 - Control 1686787585 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Successful Run</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Last Successful Run - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1120779826 - Control 297635827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the exchange rate provider used for synchronization.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Provider - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1120779826 - Control 297635827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Provider</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page FXI Integration Setup - Control Provider - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1120779826 - Action 3470463835 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Synchronizes exchange rates for the configured target currencies.</source>
