@@ -21,7 +21,10 @@ page 52103 "FXI Integration Log API"
         {
             repeater(Group)
             {
-                field(id; Rec.SystemId) { Caption = 'id'; }
+                field(id; Rec.SystemId)
+                {
+                    Caption = 'id';
+                }
                 field(entryNo; Rec."Entry No.")
                 {
                     Caption = 'entryNo';
