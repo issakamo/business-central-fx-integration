@@ -99,12 +99,17 @@ codeunit 52102 "FXI Exchange Rate Sync Mgt"
             CurrencyExchangeRate.Insert(true);
         end;
 
-        // Validate (not direct assignment) so Business Central's own field
-        // logic runs, including filling the adjustment amounts used by the
-        // exchange rate adjustment process.
         CurrencyExchangeRate.Validate("Relational Currency Code", '');
         CurrencyExchangeRate.Validate("Exchange Rate Amount", Rate);
         CurrencyExchangeRate.Validate("Relational Exch. Rate Amount", 1);
+
+        // Business Central doesn't fill the adjustment amounts in from the
+        // exchange rate, so set them explicitly. The Adjust Exchange Rates
+        // process uses them, and matching the exchange rate is the standard
+        // setup, as in the demo company's own rates.
+        CurrencyExchangeRate.Validate("Adjustment Exch. Rate Amount", Rate);
+        CurrencyExchangeRate.Validate("Relational Adjmt Exch Rate Amt", 1);
+
         CurrencyExchangeRate.Modify(true);
 
         exit(true);

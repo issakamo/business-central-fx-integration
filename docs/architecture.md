@@ -85,17 +85,23 @@ default base currency.
 ## Writing to Currency Exchange Rate
 
 Rates are written with `Validate` rather than direct field assignment,
-so Business Central's own field logic runs. That includes filling the
-adjustment amounts (`Adjustment Exch. Rate Amount`,
-`Relational Adjmt Exch Rate Amt`) that the exchange rate adjustment
-process relies on. An earlier version assigned the fields directly,
-which left those amounts at zero.
+so Business Central's own field logic runs. Business Central does not
+fill in the adjustment amounts (`Adjustment Exch. Rate Amount`,
+`Relational Adjmt Exch Rate Amt`) from the exchange rate, and the
+Adjust Exchange Rates process uses them, so they are set explicitly
+to match it. That is the standard setup, and matches the demo
+company's own rates. An earlier version assigned the fields directly,
+and a later one assumed `Validate` would fill the adjustment amounts.
+Both left them at zero, which a check in the Web Client caught.
+Covered by `SyncRates_WritesAdjustmentAmounts`.
 
-Each row's `Starting Date` is the date the rate was retrieved (`Today`),
-not the work date. Unlike posting logic, which follows the work date by
-Business Central convention, these are real-world rates tied to the
-actual day they were published. A later refinement could use the rate
-date Frankfurter returns with each row.
+Each row's `Starting Date` is the date the rates were retrieved
+(`Today`), not the work date. Unlike posting logic, which follows the
+work date by Business Central convention, these are real-world rates
+tied to the actual day they were published. A second sync on the same
+day updates that day's row, and a sync on a later day adds a new one,
+so Business Central keeps a history of daily rates. A later refinement
+could use the rate date Frankfurter returns with each row.
 
 ## A Platform Restriction: No Writes Inside a TryFunction
 

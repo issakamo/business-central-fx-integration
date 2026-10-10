@@ -129,6 +129,29 @@ codeunit 52121 "FXI Exchange Rate Sync Test"
         Assert.ExpectedError('A base currency code is required');
     end;
 
+    [Test]
+    procedure SyncRates_WritesAdjustmentAmounts()
+    var
+        GLSetup: Record "General Ledger Setup";
+        CurrencyExchangeRate: Record "Currency Exchange Rate";
+        MockProvider: Codeunit "FXI Mock Exch Rate Provider";
+        SyncMgt: Codeunit "FXI Exchange Rate Sync Mgt";
+        TargetCurrencies: List of [Code[10]];
+    begin
+        // [GIVEN] A sync for EUR, using the mock's fixed rate of 0.92
+        GLSetup.Get();
+        TargetCurrencies.Add('EUR');
+
+        // [WHEN]
+        SyncMgt.SyncRates(MockProvider, GLSetup."LCY Code", TargetCurrencies);
+
+        // [THEN] Today's row has the rate, and matching adjustment amounts
+        CurrencyExchangeRate.Get('EUR', Today);
+        Assert.AreEqual(0.92, CurrencyExchangeRate."Exchange Rate Amount", 'Exchange rate should be the mock rate');
+        Assert.AreEqual(CurrencyExchangeRate."Exchange Rate Amount", CurrencyExchangeRate."Adjustment Exch. Rate Amount", 'Adjustment amount should match the exchange rate');
+        Assert.AreEqual(1, CurrencyExchangeRate."Relational Adjmt Exch Rate Amt", 'Relational adjustment amount should be 1');
+    end;
+
     var
         Assert: Codeunit "Library Assert";
 }
