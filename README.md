@@ -1,5 +1,7 @@
 # Business Central FX Integration
 
+ ▶ **[Watch the demo video (6 min)](https://youtu.be/ecQFkwDQ8xM)**
+
 Automated foreign exchange rate synchronization and an outbound API for Dynamics 365 Business Central.
 
 ## Business Problem
